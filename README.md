@@ -55,6 +55,23 @@ inquirer.rawlist("Favorite animal?", ["cat", "dog", "wapiti"])
   .then(animal => console.log(animal));
 ```
 
+## expand
+
+```javascript
+inquirer.expand("Favorite animal?",
+                [{key: "c", name: "cat"}
+                 {key: "d", name: "dog"}
+                 {key: "w", name: "wapiti"}])
+  .then(animal => console.log(animal));
+```
+
+## checkbox
+
+```javascript
+inquirer.checkbox("Favorite animals?", ["cat", "dog", "wapiti"])
+  .then(animals => console.log(animals));
+```
+
 ## password
 
 ```javascript
