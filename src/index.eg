@@ -39,5 +39,11 @@ list{message, choices, options = {=}} =
 rawlist{message, choices, options = {=}} =
    question{options & {type = .rawlist, = message, = choices}}
 
+expand{message, options = {=}} =
+   question{options & {type = .expand, = message}}
+
+checkbox{message, options = {=}} =
+   question{options & {type = .checkbox, = message}}
+
 password{message, options = {=}} =
    question{options & {type = .password, = message}}
