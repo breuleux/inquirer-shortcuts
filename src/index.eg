@@ -6,6 +6,8 @@ provide:
    confirm
    list
    rawlist
+   checkbox
+   expand
    password
    inquirer.Separator as Separator
 
