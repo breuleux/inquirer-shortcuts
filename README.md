@@ -58,7 +58,7 @@ inquirer.rawlist("Favorite animal?", ["cat", "dog", "wapiti"])
 ## password
 
 ```javascript
-inquirer.rawlist("Enter password.")
+inquirer.password("Enter password.")
   .then(password => console.log("Don't print passwords!"));
 ```
 
