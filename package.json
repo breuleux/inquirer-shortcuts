@@ -1,7 +1,7 @@
 {
   "name": "inquirer-promise",
-  "description": "Promise wrapper for inquirer",
-  "version": "0.0.3",
+  "description": "Promise-based shortcuts for inquirer",
+  "version": "1.0.0",
   "format": "cjs",
   "repository": {
     "type": "git",
@@ -12,13 +12,12 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "dependencies": {
-    "earlgrey-runtime": ">=0.0.11",
     "inquirer": "^1.2.1"
   },
   "devDependencies": {
-    "earlgrey": "^0.0.14",
+    "earlgrey": ">=0.0.14",
     "mocha": "^3.1.2",
-    "earl-mocha": "^0.0.3"
+    "earl-mocha": ">=0.0.3"
   },
   "scripts": {
     "refresh": "earl compile -5vso lib/ src/",
