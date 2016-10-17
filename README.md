@@ -1,10 +1,15 @@
 
-inquirer-promise
-================
+inquirer-shortcuts
+==================
 
-Promise wrapper around `inquirer`.
+Wraps the [`inquirer`](https://github.com/SBoudrias/Inquirer.js/)
+package and adds shortcuts for all question types. This is handy if
+you only have one prompt or if you use async/await.
+
 
 ## prompt
+
+This method remains unchanged from the `inquirer` package.
 
 ```javascript
 inquirer = require("inquirer-promise");
