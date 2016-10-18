@@ -1,7 +1,7 @@
 {
   "name": "inquirer-shortcuts",
   "description": "Shortcuts for inquirer question types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "format": "cjs",
   "repository": {
     "type": "git",
