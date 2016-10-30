@@ -12,7 +12,7 @@ you only have one prompt or if you use async/await.
 This method remains unchanged from the `inquirer` package.
 
 ```javascript
-inquirer = require("inquirer-promise");
+inquirer = require("inquirer-shortcuts");
 
 inquirer.prompt([{type: "input",
                   name: "animal",
